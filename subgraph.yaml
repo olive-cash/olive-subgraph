@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Pangolin is a decentralized exchange for swapping Ethereum and Avalanche assets on Avalanche.
-repository: https://github.com/pangolindex/subgraph
+description: OliveCash is a decentralized protocol for automated token exchange on Avalanche
+repository: https://github.com/olive-cash/olive-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: mainnet
     source:
-      address: '0xefa94DE7a4656D787667C749f7E1223D71E9FD88'
+      address: '0x4Fe4D8b01A56706Bc6CaD26E8C59D0C7169976b3'
       abi: Factory
-      startBlock: 56877
+      startBlock: 914777
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
