@@ -61,7 +61,8 @@ export function getEthPriceInUSD(): BigDecimal {
 
 // token where amounts should contribute to tracked volume and liquidity
 let WHITELIST: string[] = [
-  WAVAX_ADDRESS, // WAVAX
+  WETH_ADDRESS, // WAVAX
+  '0x617724974218A18769020A70162165A539c07E8a', // OLIVE
   '0x60781c2586d68229fde47564546784ab3faca982', // PNG
   '0xf20d962a6c8f70c731bd838a3a388d7d48fa6e15', // ETH (aeb)
   '0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab', // WETH.e
