@@ -6,7 +6,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: avalanche
     source:
       address: '0x4Fe4D8b01A56706Bc6CaD26E8C59D0C7169976b3'
       abi: Factory
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: mainnet
+    network: avalanche
     source:
       abi: Pair
     mapping:
