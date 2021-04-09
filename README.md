@@ -1,4 +1,4 @@
-# Pangolin Subgraph
+# Olive.Cash Subgraph
 
 An open source subgraph index for Pangolin -- a community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution -- powered by Avalanche.
 
@@ -16,7 +16,7 @@ Make sure to update package.json settings to point to your own graph account.
 
 ## Queries
 
-Below are a few ways to show how to query the Pangolin subgraph for data. The queries show most of the information that is queryable, but there are many other filtering options that can be used, just check out the [querying api](https://thegraph.com/docs/graphql-api). 
+Below are a few ways to show how to query the Pangolin subgraph for data. The queries show most of the information that is queryable, but there are many other filtering options that can be used, just check out the [querying api](https://thegraph.com/docs/graphql-api).
 
 ## Key Entity Overviews
 
