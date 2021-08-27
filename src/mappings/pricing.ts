@@ -54,7 +54,17 @@ let WHITELIST: string[] = [
   '0x408d4cd0adb7cebd1f1a1c33a0ba2098e1295bab', // wbtc
   '0x39cf1bd5f15fb22ec3d9ff86b0727afc203427cc', // sushi
   '0xba7deebbfc5fa1100fb055a87773e1e99cd3507a', // dai
-  '0x99519acb025a0e0d44c3875a4bbf03af65933627' // yfi
+  '0x99519acb025a0e0d44c3875a4bbf03af65933627', // yfi
+  '0x61eCd63e42C27415696e10864d70ecEA4aA11289', // rugpull
+  '0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4', // laika
+  '0x81440C939f2C1E34fc7048E518a637205A632a74', // cycle
+  '0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7', // yak
+  '0xc7198437980c041c805A1EDcbA50c1Ce5db95118', // usdt.e
+  '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70', // dai.e
+  '0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98', // busd.e
+  '0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB', // eth.e
+  '0x50b7545627a5162F82A992c33b87aDc75187B218', // wbtc.e
+  '0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76' // sushi.e
 ]
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
